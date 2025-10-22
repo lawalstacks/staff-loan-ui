@@ -83,7 +83,7 @@ const handleDelete = async (loanId: string) => {
             <tr v-for="loan in loanStore.loans" :key="loan.id">
               <td>{{ loan.applicant.name }}</td>
               <td>{{ loan.applicant.email }}</td>
-              <td>${{ loan.amount.toLocaleString() }}</td>
+              <td>{{ loan.amount.toLocaleString() }}</td>
               <td>
                 <span :class="`status-${loan.status}`">{{ loan.status }}</span>
               </td>
