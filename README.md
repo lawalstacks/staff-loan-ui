@@ -3,6 +3,9 @@
 This is a full-stack application for managing staff loans, built as part of a practical test.  
 The application consists of a secure **NestJS RESTful API** backend and a responsive **Vue.js** frontend.
 
+# DemoLink
+https://staff-loan.edgeone.app
+
 ---
 
 ## Features
