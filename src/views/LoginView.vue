@@ -281,8 +281,8 @@ const handleLogin = async () => {
   width: 100%;
   padding: 0.85rem 1rem;
   font-size: 1rem;
-  border: 1px solid var(--text-dark);
-  border-radius: 8px;
+   border: 1px solid #bbb;
+  border-radius: 4px;
   box-sizing: border-box;
 }
 
