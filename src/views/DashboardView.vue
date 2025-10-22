@@ -95,7 +95,7 @@ const handleDelete = async (loanId: string) => {
                   authStore.user?.role === 'superAdmin'
                 "
               >
-                ${{ loan.applicant.totalLoan?.toLocaleString() || 'N/A' }}
+                {{ loan.applicant.totalLoan?.toLocaleString() || 'N/A' }}
               </td>
 
               <td v-if="authStore.user?.role === 'superAdmin'">
